@@ -291,11 +291,12 @@ div > div#faixa {
 div#creditos {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(45, 45, 45);
-    height: 300px;
+    height: auto;
     color: white;
     font-size: 12px;
     text-align: center;
     text-decoration: none;
+    padding-bottom: 20px;
 }
 
 div > section {
