@@ -1,0 +1,346 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body {
+    background-color: black;  
+}
+
+
+header {
+
+    font-family: "Lexend Exa", sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-optical-sizing: auto;
+    font-weight: 22px;
+    justify-content: center;
+    min-height: 750px;   
+}
+
+header > img {
+    padding-left: 9%;
+    padding-top: 100px;
+}
+
+header > h1 {
+    padding-left: 10%;
+    width: 40%;
+    font-size: 1.7vw;
+    
+}
+
+header > p {
+    padding-left: 10%;
+    padding-bottom: 30px;
+    width: 40%;
+    font-size: 1.1vw;
+
+}
+
+header > a > button {
+    background-color: #1200FF;
+    color: white;
+    border: #1200FF;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+main#pontos {
+    background-image: url(imagens/plano-de-fundo/pontos/1.4.png);
+    font-family: "Lexend Exa", sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+
+main > div > p {
+    font-size: 30px;
+    color: white;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+main > p {
+    font-family: "Lexend Exa", sans-serif;
+    list-style-type:upper-roman;
+    list-style-type: #B39037;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;    
+}
+
+span.dourado {
+    color: #B39037;
+    animation: neon 2s alternate infinite ease-in-out;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div.plantar {
+    font-family: "Lexend Exa", sans-serif;
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+
+}
+
+main > a > button {
+    background-color: #1200FF;
+    color: white;
+    border: #1200FF;
+    border-radius: 5px;
+    height: 60px;
+    width: 330px;
+    font-size: 22px;
+    margin: 30px;
+    display: block;
+    margin: auto;  
+}
+
+main#Hewerton {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div > div > div > h1 {
+    font-family: "Lexend Exa", sans-serif;
+    width: 100%;
+    text-align: initial;
+}
+
+main > div > div > h1 {
+    font-family: "Lexend Exa", sans-serif;
+}
+
+main > div > div > p {
+    font-family: "Lexend Exa", sans-serif;
+}
+
+div > div > div > h2 {
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 25px;
+    width: 100%; 
+    margin-left: 50px;
+}
+
+div > div > p {
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.limpo {
+    text-decoration: none;
+}
+
+button.solitario {
+    background-color: #1200FF;
+    text-shadow:0px 0px 10px black;
+    text-decoration: none;
+    font-weight: none;
+    font-weight: bolder;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    height: 60px;
+    width: 350px;
+    font-size: 22px;
+    margin: auto;
+    display: block;
+    animation: play 1s alternate infinite ease-in-out;
+}
+
+div > div > a > button {
+    background-color: #1200FF;
+    text-shadow: 0px 0px 10px black;
+    color: white;
+    border: #1200FF;
+    border-radius: 5px;
+    height: 60px;
+    width: 350px;
+    font-size: 22px;
+    margin: 30px;
+    display: block;
+    margin: auto;
+}
+
+div#detalhes {
+    max-width: 1350px;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-top: 50px; 
+}
+
+.lucasteste {
+    display: block;
+    margin: auto;
+    text-align: center;
+ }
+
+
+div > picture {
+    max-width: 1350px;
+
+}
+
+div > source {
+    margin: auto;
+    display: block;
+}
+
+div#plenitude {
+    margin: auto;
+    display: block;
+}
+
+.ciclo {
+    font-family: "Lexend Exa", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#chamada {
+    font-family: "Sora", sans-serif;
+    font-size: 30px;
+}
+
+
+main#ticket {
+    background-image: url(imagens/7presentesextras/planodefundo/fundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+div.pontos7 {
+    
+    max-width: 1030px;
+    margin: auto;
+    display: block;
+}
+
+div > h1 {
+    color: white;
+    font-family: "Sora", sans-serif;
+    text-align: center;
+    margin: 50px;
+    font-size: 35px;
+}
+
+
+div#venda {
+    background-image: url(imagens/Venda/fundo/6.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Lexend Exa", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+}
+
+div > img#tamanho {
+    margin: auto;
+    display: block;
+}
+
+div > div > img.presentes {
+    width: 250px;
+    margin: auto;
+    display: inline-block;
+    margin: 20px;
+    animation: neon 3s alternate infinite ease-in-out;
+
+}
+
+div#duvidas {
+    font-family: "Lexend Exa", sans-serif;
+    padding: 30px;
+    
+}
+
+div > div#faixa {
+    background-image: linear-gradient(90deg, gray, #494949);
+    max-width: 400px;
+    height: 15px;
+    margin: auto;
+    display: block;
+
+}
+
+div#creditos {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(45, 45, 45);
+    height: 300px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+div > section {
+    background-color: #dcdcdc;
+    text-align: initial;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+div > section > details > summary {
+    background-color: #727272;
+    padding: 2%;
+    border-bottom: 2px solid #282828;
+    border-radius: 5px;
+    color: white;
+}
+
+div > section > details > p {
+    padding: 10px;
+
+}
+
+div > section > details > a {
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+@keyframes neon {
+    from {
+        filter: drop-shadow(0 0 0 #B39037);
+    }
+    to {
+        filter: drop-shadow(0 0 10px #B39037);
+    }
+}
+
+@keyframes play {
+    from {
+        filter: drop-shadow(0 0 0 #1200FF);
+    }
+    to {
+        filter: drop-shadow(0 0 50px #1200FF);
+    }
+}
+

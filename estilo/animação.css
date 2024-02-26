@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.mycode {
+    height: 100px;
+    width: 300px;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    height: 100px;
+    width: 300px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    border-radius: 5px;
+    background-color: #131315;
+}
+
+div> div > h1 {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: -2.9px;
+    left: -2.5px;
+    height: 105px;
+    width: 305px;
+    border-radius: 5px;
+    background: linear-gradient(, blue, green);
+    z-index: -1;
+    animation: animate 3s linear infinite;
+
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg) brightness(100%) blur(10px);
+    }
+    100%{
+        filter: hue-rotate(360deg) brightness(100%) blur(10px);
+    }
+
+
+}
+
+footer {
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(#B39037);
+}

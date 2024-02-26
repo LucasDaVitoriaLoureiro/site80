@@ -1,0 +1,172 @@
+@charset "UFT-8";
+
+
+header {
+    background-image: url(imagens/plano-de-fundo/banner-Heweton/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header > img {
+    padding-left: 9%;
+    padding-top: 250px;
+    width: 40vw;
+}
+
+header > h1 {
+    padding-left: 10%;
+    width: 40%;
+    font-size: 1.7vw;
+    
+}
+
+header > p {
+    padding-left: 10%;
+    padding-bottom: 30px;
+    width: 40%;
+    font-size: 1.1vw;
+
+}
+
+header > a > button {
+    height: 60px;
+    width: 20%;
+    font-size: 22px;
+    margin: 30px;
+    margin-left: 15%;
+    margin-bottom: 100px;
+
+}
+
+main#pontos {
+    background-image: url(imagens/plano-de-fundo/pontos/1.4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+
+main > div > h1 {
+    max-width: 40%;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+main > p {
+    font-family: "Lexend Exa", sans-serif;
+    list-style-type:upper-roman;
+    list-style-type: #B39037;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;    
+}
+
+.centralizando {
+    font-family: "Lexend Exa", sans-serif;
+    min-width: 320px;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+
+.conteudo {
+    font-family: "Sora", sans-serif;
+    display: table;
+    margin: auto;
+    max-width: 1500px;
+    text-align: center;
+}
+
+.imagen {
+    display: table-cell;
+    float: left;
+    min-width: 320px;
+    max-width: 600px;
+    padding-top: 50px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.texto {
+    font-family: "Lexend Exa", sans-serif; 
+    float: right;
+    max-width: 500px;
+    color: #ffffff;
+    margin: 70px;
+    font-size: 25px;
+}
+
+div > div > div > h1 {
+    font-size: 35px;
+    text-align: initial;
+}
+
+div > div > div > h2 {
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 25px;
+    width: 100%;
+    text-align: initial;
+    margin-left: 50px;
+}
+
+div > div > div > p {
+    font-size: 18px;
+}
+
+div.plantar {
+    padding-bottom: 30px;
+    width: 40vw;
+    font-size: 18px;
+}
+
+
+main#Hewerton {
+    background-image: url(imagens/biografia/fundo-hewerton002.jpg);
+    background-position: center;
+}
+
+div#plenitude {
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+
+main#ticket {
+    background-image: url(imagens/7presentesextras/planodefundo/fundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+main > div > div > h1 {
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 30px;
+    width: 550px;
+    
+}
+
+main > div > div > p {
+    font-family: "Lexend Exa", sans-serif;
+    text-align: center;
+}
+
+
+
+div > section {
+    width: 700px;
+}
+
+img.tama {
+    max-width: 300px;
+    padding-top: 50px;
+}
+
