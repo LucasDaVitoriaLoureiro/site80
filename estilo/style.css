@@ -145,7 +145,7 @@ div > div > p {
 }
 
 button.solitario {
-    background-color: #1200FF;
+    background-image: linear-gradient(50deg, #B07E09, #F2CB62, #B07E09);
     text-shadow:0px 0px 10px black;
     text-decoration: none;
     font-weight: none;
@@ -158,7 +158,7 @@ button.solitario {
     font-size: 22px;
     margin: auto;
     display: block;
-    animation: play 1s alternate infinite ease-in-out;
+    animation: neon 1s alternate infinite ease-in-out;
 }
 
 div > div > a > button {
@@ -302,6 +302,7 @@ div > section {
     display: block;
     margin: auto;
     border-radius: 5px;
+    
 }
 
 div > section > details > summary {
@@ -310,6 +311,7 @@ div > section > details > summary {
     border-bottom: 2px solid #282828;
     border-radius: 5px;
     color: white;
+    transition: 1s;
 }
 
 div > section > details > p {
@@ -323,6 +325,10 @@ div > section > details > a {
 
 }
 
+html {
+    
+}
+
 
 @keyframes neon {
     from {
@@ -330,15 +336,6 @@ div > section > details > a {
     }
     to {
         filter: drop-shadow(0 0 10px #B39037);
-    }
-}
-
-@keyframes play {
-    from {
-        filter: drop-shadow(0 0 0 #1200FF);
-    }
-    to {
-        filter: drop-shadow(0 0 50px #1200FF);
     }
 }
 
