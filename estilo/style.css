@@ -5,7 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
 body {
-    background-color: black;  
+    background-color: black;
+    width: 100vw;  
 }
 
 
@@ -19,7 +20,7 @@ header {
     font-optical-sizing: auto;
     font-weight: 22px;
     justify-content: center;
-    min-height: 750px;   
+   
 }
 
 header > img {
@@ -29,9 +30,7 @@ header > img {
 
 header > h1 {
     padding-left: 10%;
-    width: 40%;
     font-size: 1.7vw;
-    
 }
 
 header > p {
@@ -111,7 +110,7 @@ main > a > button {
 
 main#Hewerton {
     background-image: url(imagens/biografia/fundo-hewerton002.jpg);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -136,8 +135,7 @@ div > div > p {
     height: auto;
     width: 100%;
     font-size: 20px;
-    margin: 20px;
-    margin-left: 50px;
+    margin: 20px; 
 }
 
 .limpo {
@@ -189,10 +187,8 @@ div#detalhes {
     text-align: center;
  }
 
-
 div > picture {
     max-width: 1350px;
-
 }
 
 div > source {
@@ -263,10 +259,9 @@ div > img#tamanho {
 
 div > div > img.presentes {
     width: 250px;
-    margin: auto;
     display: inline-block;
     margin: 20px;
-    animation: neon 3s alternate infinite ease-in-out;
+    animation: neon 2s alternate infinite ease-in-out;
 
 }
 
@@ -278,8 +273,8 @@ div#duvidas {
 
 div > div#faixa {
     background-image: linear-gradient(90deg, gray, #494949);
-    max-width: 400px;
-    height: 15px;
+    width: 70vw;
+    height: 10px;
     margin: auto;
     display: block;
 
@@ -323,10 +318,6 @@ div > section > details > a {
     padding: 10px;
     text-align: center;
 
-}
-
-html {
-    
 }
 
 
