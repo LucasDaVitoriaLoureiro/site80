@@ -110,14 +110,11 @@ main > a > button {
 }
 
 main#Hewerton {
+    background-image: url(imagens/biografia/fundo-hewerton002.jpg);
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-div > div > div > h1 {
-    font-family: "Lexend Exa", sans-serif;
-    width: 100%;
-    text-align: initial;
+    
 }
 
 main > div > div > h1 {

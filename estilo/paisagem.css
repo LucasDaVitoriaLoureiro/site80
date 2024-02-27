@@ -80,9 +80,9 @@ main > p {
 .conteudo {
     font-family: "Sora", sans-serif;
     display: table;
-    margin: auto;
-    max-width: 1500px;
-    text-align: center;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .imagen {
@@ -92,15 +92,12 @@ main > p {
     max-width: 600px;
     padding-top: 50px;
     padding-top: 100px;
-    text-align: center;
 }
 
-.texto {
-    font-family: "Lexend Exa", sans-serif; 
+.texto { 
     float: right;
-    max-width: 500px;
+    max-width: 30vw;
     color: #ffffff;
-    margin: 70px;
     font-size: 25px;
 }
 
@@ -131,6 +128,7 @@ div.plantar {
 main#Hewerton {
     background-image: url(imagens/biografia/fundo-hewerton002.jpg);
     background-position: center;
+    
 }
 
 div#plenitude {

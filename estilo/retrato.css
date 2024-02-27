@@ -75,16 +75,10 @@ main > div > div > picture > img#foto {
     transform: translate(-50% -50%);
 }
 
-
 .texto {
     font-family: "Lexend Exa", sans-serif;
     color: white;
     width: 70vw;
-    text-align: center;
-}
-
-div > div > div > h1 {
-    font-size: 25px;
     text-align: center;
 }
 
@@ -100,12 +94,6 @@ div.plantar {
     font-size: 10px;
     padding: 20px;
     width: 70vw;
-}
-
-main#Hewerton {
-    background-image: url(imagens/biografia/fundo-hewerton002.jpg);
-    background-position: left;
-    
 }
 
 div#plenitude {
@@ -124,15 +112,13 @@ main#ticket {
 }
 
 main > div > div > h1 {
-    font-family: "Lexend Exa", sans-serif;
     font-size: 28px;
     width: 80vw;
 }
 
 main > div > div > p {
-    font-family: "Sora", sans-serif;
-    text-align: center;
     font-size: 16px;
+    text-align: center;
 }
 
 div > div > div > h2 {
@@ -143,16 +129,14 @@ div > div > div > h2 {
     margin-left: 50px;
 }
 
-.conteudo {
-    font-family: "Sora", sans-serif;
-    width: 70vw;
-    text-align: center;
-}
-
 .texto {
     font-family: "Sora", sans-serif;
     color: white;
-    width: 80vw;
+    width: 90%;
+
+   
+    
+ 
 }
 
 div > section {
