@@ -99,6 +99,7 @@ main > p {
     max-width: 30vw;
     color: #ffffff;
     font-size: 25px;
+    text-align: center;
 }
 
 div > div > div > h1 {
