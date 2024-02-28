@@ -88,6 +88,13 @@ span.dourado {
     text-decoration: none;
 }
 
+.dourado {
+    color: #B39037;
+    animation: neon 2s alternate infinite ease-in-out;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 div.plantar {
     font-family: "Lexend Exa", sans-serif;
     text-align: center;
@@ -158,7 +165,7 @@ button.solitario {
     font-size: 22px;
     margin: auto;
     display: block;
-    animation: neon 1s alternate infinite ease-in-out;
+    animation: botao 2s ease-in-out, neon 1s alternate infinite ease-in-out;
     cursor: pointer;
 }
 
@@ -299,7 +306,7 @@ div > section {
     display: block;
     margin: auto;
     border-radius: 5px;
-    
+    cursor: pointer;
 }
 
 div > section > details > summary {
@@ -348,6 +355,15 @@ details[open] summary ~ * {
 }
 
 @keyframes sweep {
+    from {
+        opacity: 0; margin-center: -20px;
+    }
+    to {
+        opacity: 1; margin-center: 0px;
+    }
+}
+
+@keyframes botao {
     from {
         opacity: 0; margin-center: -20px;
     }
