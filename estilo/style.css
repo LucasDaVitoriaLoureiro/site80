@@ -4,6 +4,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+
 body {
     background-color: black;
     width: 100vw; 
@@ -270,7 +280,7 @@ div > img#tamanho {
 div > div > img.presentes {
     width: 250px;
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
     animation: neon 2s alternate infinite ease-in-out;
 
 }
